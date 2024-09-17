@@ -76,8 +76,12 @@ body {
   text-decoration-color: black;
 }
 
+.span2{
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: wheat;
+}
 .span1,
-.span2,
 .span3 {
   text-transform: uppercase;
   font-weight: bolder;
