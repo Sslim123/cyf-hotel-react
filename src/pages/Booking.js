@@ -11,7 +11,7 @@ const Booking = () => {
   const [changeButton, setChangeButton] = useState(false);
 
   return (
-    <>
+    <div className="booked">
       <Heading />
       <CheckDate />
       <Slides />
@@ -40,7 +40,7 @@ const Booking = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

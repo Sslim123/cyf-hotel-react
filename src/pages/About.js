@@ -15,15 +15,14 @@ const About = () => {
           </p>
           <Modal />
         </div>
-        <div className="why">
-          <span>What can offer</span>
+        <div className="who">
+          <span>What We can offer</span>
           <p>Find the perfect holiday rental for your trip</p>
           <Modal />
         </div>
-        <div className="what">
+        <div className="who">
           <span>Why are we</span>
           <p>
-            {" "}
             With instant and flexible booking options on holiday homes, villas,
             apartments and more
           </p>

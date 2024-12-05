@@ -7,7 +7,7 @@ const Delivery = ({ prop }) => {
   const [buyCoffee, setBuyCoffee] = useState(false);
   const [buySoup, setBuySoup] = useState(false);
 
-  function delivery() {
+  function delivery() {relative
     let clickBuy = OrdData.filter(by => {
       if (by.pizza.toLowerCase().includes(by.pizza)) {
         console.log(by.od1);
@@ -42,7 +42,7 @@ const Delivery = ({ prop }) => {
   }
   return (
     <div className="delivery-img">
-      {/* <div className="order-img"> */}
+      <div className="order-img">
       <div className="span-img">
         <img src={prop.image} alt="img1" />
         <p onClick={delivery}>{prop.pizza}</p>
@@ -55,7 +55,7 @@ const Delivery = ({ prop }) => {
         <img src={prop.image3} alt="img1" />
         <p onClick={deliverySoup}>{prop.soup}</p>
       </div>
-      {/* </div> */}
+      </div>
     </div>
   );
 };

@@ -8,92 +8,180 @@ import Imgs6 from "../images/london33.jpg";
 import Imgs7 from "../images/manchester1.jpg";
 import Imgs8 from "../images/manchester31.jpg";
 import Imgs9 from "../images/manchester3.jpg";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 export default function PlacesToVisit() {
   return (
     <div className="places">
       <div className="glasgow">
-        <p>
-          The city has world-class museums, galleries and attractions, Gallery
-          and Museum. Glasgow Science Centre or Riverside.
-        </p>
-        <div>
-          <img src={Imgs1} alt="glasgow" />
-          <div className="p-a">
-            <p>Gorge square, Glasgow</p>
-            <a href="https://peoplemakeglasgow.com/">visit</a>
-          </div>
-        </div>
-        <div>
-          <img src={Imgs2} alt="glasgow" />
-          <div className="p-a">
-            <p>Clyde bridge, Glasgow</p>
-            <a href="https://peoplemakeglasgow.com/">Visit</a>
-          </div>
-        </div>
-        <div>
-          <img src={Imgs3} alt="glasgow" />
-          <div className="p-a">
-            <p>Buchanan galleries, Glasgow</p>
-            <a href="https://peoplemakeglasgow.com/">visit</a>
-          </div>
-        </div>
+        <Card className="card1" style={{ width: "20rem"  }}>
+          <Card.Body>
+            <Card.Text className="pragh">
+          <p>Glasgow</p>
+
+              Whether you’re seeking culture, nightlife, history, or just good fun,
+              there are plenty of things to do in Manchester.</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs1} alt="glasgow" />
+          <Card.Body>
+            <Card.Text
+            >Gorge square, Glasgow</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              {" "}
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://peoplemakeglasgow.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs2} alt="glasgow" />
+          <Card.Body>
+            <Card.Text >Clyde bridge, Glasgow</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              {" "}
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://peoplemakeglasgow.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs3} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>Buchanan galleries, Glasgow</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://peoplemakeglasgow.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
       </div>
       <div className="london">
-        <p>
-          Explore the city on sightseeing tours, soak up culture at museums and
-          galleries, or choose from the many free things to do.
-        </p>
-        <div>
-          <img src={Imgs4} alt="glasgow" />
-          <div className="p-a">
-            <p>Hyde park,London</p>
-            <a href="https://www.visitlondon.com/">visit</a>
-          </div>
-        </div>
-        <div>
-          <img src={Imgs5} alt="glasgow" />
-          <div className="p-a">
-            <p>London river</p>
-            <a href="https://www.visitlondon.com/">visit</a>
-          </div>
-        </div>
-        <div>
-          <img src={Imgs6} alt="glasgow" />
-          <div className="p-a">
-            <p>Big Ben, London</p>
-            <a href="https://www.visitlondon.com/">visit </a>
-          </div>
-        </div>
+        <Card className="card1" style={{ width: "20rem" }}>
+
+          <Card.Body>
+            <Card.Text className="pragh"> 
+        <p>London</p>
+              Whether you’re seeking culture, nightlife, history, or just good fun,
+              there are plenty of things to do in Manchester.</Card.Text>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs4} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>Hyde park,London</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              {" "}
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://www.visitlondon.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs5} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>London River</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://www.visitlondon.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs6} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>Big Ben, London</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://www.visitlondon.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
       </div>
       <div className="manchester">
-        <p>
-          Whether you’re seeking culture, nightlife, history, or just good fun,
-          there are plenty of things to do in Manchester.
-        </p>
-        <div>
-          <img src={Imgs7} alt="glasgow" />
-          <div className="p-a">
-            <p>canal area, manchester</p>
-            <a href="https://www.visitmanchester.com/">visit</a>
-          </div>
-        </div>
-        <div>
-          <img src={Imgs8} alt="glasgow" />
-          <div className="p-a">
-            <p>footbridge, manchester</p>
-            <a href="https://www.visitmanchester.com/">visit</a>
-          </div>
-        </div>
 
-        <div>
-          <img src={Imgs9} alt="glasgow" />
-          <div className="p-a">
-            <p>Albert square, manchester</p>
-            <a href="https://www.visitmanchester.com/">visit</a>
-          </div>
-        </div>
+        <Card className="card1" style={{ width: "20rem" }}>
+          <Card.Body>
+            <Card.Text className="pragh"> 
+      <p>Manchester</p>
+              Whether you’re seeking culture, nightlife, history, or just good fun,
+              there are plenty of things to do in Manchester.</Card.Text>
+
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs7} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>canal area, manchester</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              {" "}
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://www.visitmanchester.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs8} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>footbridge, manchester</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              {" "}
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://www.visitmanchester.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="card1" style={{ width: "20rem", fontSize: ".8em" }}>
+          <Card.Img variant="top" src={Imgs7} alt="glasgow" />
+          <Card.Body>
+            <Card.Text>Albert square, manchester</Card.Text>
+            <Button variant="primary" style={{ width: "100px" }}>
+              {" "}
+              <a
+                style={{ width: "100px", color: "white" }}
+                href="https://www.visitmanchester.com/"
+              >
+                visit
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
       </div>
+
     </div>
   );
 }

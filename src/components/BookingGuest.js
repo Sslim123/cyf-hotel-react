@@ -6,7 +6,7 @@ let BookingLength = props => {
     moment(props.guest.checkOutDate).diff(
       moment(props.guest.checkInDate),
       "days"
-    ) + ",  Days"
+    ) + "-  Days"
   );
 };
 

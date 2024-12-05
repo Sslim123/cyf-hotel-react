@@ -10,7 +10,6 @@ function CheckDate() {
   const [changeChild, setChangeChild] = useState(0);
   const [selectRoom, setSelectRoom] = useState(false);
   const [hideRoom, setHideRoom] = useState(false);
-
   const [date, setDate] = useState(null);
   const [dateOut, setDateOut] = useState(null);
   const orderRoom = () => {

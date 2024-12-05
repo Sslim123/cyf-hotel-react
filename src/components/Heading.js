@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Nav from 'react-bootstrap/Nav';
 
 function Heading() {
   const [showNavBar, setShowNavBar] = useState(false);

@@ -18,12 +18,12 @@ function TouristInfoCards() {
             <strong>city.Glasgow's city centre </strong>is home to flagship
             stores, impressive shopping centres and designer favourites all
             creators which makes for a thriving and exciting independent
-            shopping scene.The city is also rich in artists and creators which
+            shopping scene.The city is also    
+            rich in artists and creators which
           </p>
           <a href="Booking" className="btn btn-primary">
             Booking Now
           </a>
-          <br />
           <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F3e%2Fbf%2Fdf%2F3ebfdfee1cffa25785a6b15f2c2d3952.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2F489977634451969059%2F&tbnid=LaQ8_adnxmdxWM&vet=12ahUKEwiXgvemkf33AhUIdBoKHfzaBAAQMygDegUIARDIAQ..i&docid=TNxyVW7SG-BKuM&w=750&h=530&q=glasgow%20tourist%20map&ved=2ahUKEwiXgvemkf33AhUIdBoKHfzaBAAQMygDegUIARDIAQ">
             Glasgow-map
           </a>
@@ -83,7 +83,8 @@ function TouristInfoCards() {
           </a>
         </div>
       </article>
-    </div>
+      </div>
+  
   );
 }
 

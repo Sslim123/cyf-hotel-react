@@ -84,10 +84,10 @@ function SearchResults(props) {
                     <button
                       key={index}
                       onClick={() =>
-                        setHighlight("id, " + result.id) ||
-                        setHighlight1("room, " + result.roomId) ||
-                        setHighlight2("name, " + result.firstName) ||
-                        setHighlight3("email, " + result.email) ||
+                        setHighlight("id - " + result.id) ||
+                        setHighlight1("room - " + result.roomId) ||
+                        setHighlight2("name - " + result.firstName) ||
+                        setHighlight3("email - " + result.email) ||
                         setHighlight4(<BookingGuest guest={result} />)
                       }
                       className="btn btn-primary"
